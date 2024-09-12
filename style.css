@@ -1,0 +1,35 @@
+* {
+    margin          : 0;
+    padding         : 0;
+    background-color: hsl(30, 4%, 27%);
+    margin-top      : 1vh;
+}
+
+.heading {
+    margin-top     : 10vh auto;
+    color          : hsl(33, 15%, 86%);
+    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    text-align     : center;
+}
+
+.lorem {
+    margin-top     : 2vh;
+    color          : hsl(33, 15%, 86%);
+    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    text-align     : center;
+}
+
+.image {
+    display        : flex;
+    flex-flow      : row wrap;
+    justify-content: center;
+    align-items    : flex-start;
+    align-content  : flex-start;
+    gap            : 10px 10px;
+}
