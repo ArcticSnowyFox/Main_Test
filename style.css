@@ -5,6 +5,11 @@
     margin-top      : 1vh;
 }
 
+.background {
+    position: absolute;
+    height: 100dvh;
+}
+
 .heading {
     margin-top     : 10vh auto;
     color          : hsl(33, 15%, 86%);
