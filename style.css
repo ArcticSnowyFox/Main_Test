@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+    width: 0;
+}
+
 * {
     margin             : 0;
     padding            : 0;
@@ -17,23 +21,23 @@
 }
 
 .heading {
-    margin-top     : 1vh;
-    color          : #F4EFEA;
-    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     display        : flex;
     justify-content: center;
     align-items    : center;
     text-align     : center;
+    margin-top     : 1vh;
+    color          : #F4EFEA;
+    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .lorem {
-    margin-top     : 1vh;
-    color          : #F4EFEA;
-    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     display        : flex;
     justify-content: center;
     align-items    : center;
     text-align     : center;
+    margin-top     : 1vh;
+    color          : #F4EFEA;
+    font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 .image {
@@ -43,5 +47,5 @@
     align-items    : flex-start;
     align-content  : flex-start;
     gap            : 10px 10px;
-    margin: 2%;
+    margin         : 2%;
 }
