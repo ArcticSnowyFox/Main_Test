@@ -15,18 +15,25 @@
     width           : 100vw;
     background-color: #1a609e;
     background-image: linear-gradient(#324a5f, #1a609e, #00a3b9, #22d3cd);
-    z-index         : -1;
-
 }
 
 .heading {
     display        : flex;
+    flex-flow      : row wrap;
     justify-content: center;
-    align-items    : center;
+    align-items    : flex-start;
+    align-content  : flex-start;
     text-align     : center;
     margin-top     : 1vh;
     color          : #F4EFEA;
     font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    row-gap        : 10px;
+}
+
+.heading:hover {
+    color           : red;
+    background-color: chartreuse;
+    transition      : 300ms;
 }
 
 .lorem {
