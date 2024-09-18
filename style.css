@@ -32,7 +32,7 @@
 
 .heading:hover {
     color           : red;
-    background-color: chartreuse;
+    /* background-color: chartreuse; */
     transition      : 300ms;
 }
 
