@@ -84,3 +84,16 @@ li navbar:hover {
     background-color   : #111;
     transition-duration: 200ms;
 }
+
+.motivation {
+    width : 50%;
+    margin: 25%;
+    margin-top: 5%;
+}
+
+.background-dark {
+    position        : relative;
+    height          : 100vw;
+    width           : 100vw;
+    background-color: #181935;
+}
