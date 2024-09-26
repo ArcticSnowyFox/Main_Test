@@ -25,15 +25,18 @@
     align-content  : flex-start;
     text-align     : center;
     margin-top     : 1vh;
+    margin-right   : 25vw;
+    margin-left    : 25vw;
     color          : #F4EFEA;
     font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     row-gap        : 10px;
+    transition     : 200ms;
 }
 
 .heading:hover {
     color              : red;
     /* background-color: chartreuse; */
-    transition         : 300ms;
+    transition         : 200ms;
 }
 
 .lorem {
@@ -58,6 +61,10 @@
     align-content  : flex-start;
     gap            : 10px 10px;
     margin         : 2%;
+}
+
+image:hover {
+    background-color: #F4EFEA;
 }
 
 ul {
@@ -85,7 +92,7 @@ li a {
 li a:hover {
     background-color   : #376281;
     transition-duration: 200ms;
-    color           : white;
+    color              : white;
     text-decoration    : underline;
 }
 
