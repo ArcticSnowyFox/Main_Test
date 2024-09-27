@@ -85,15 +85,15 @@ li a {
     text-align         : center;
     padding            : 14px 16px;
     text-decoration    : none;
-    transition-duration: 200ms;
     font-family        : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    transition-duration: 200ms;
 }
 
 li a:hover {
     background-color   : #376281;
-    transition-duration: 200ms;
     color              : white;
     text-decoration    : underline;
+    transition-duration: 200ms;
 }
 
 .motivation {
