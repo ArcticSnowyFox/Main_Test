@@ -51,6 +51,7 @@
     color          : #F8F8F2;
     font-family    : "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
     row-gap        : 10px;
+    text-decoration: none;
 }
 
 .image {
@@ -103,6 +104,17 @@ li a:hover {
     margin-bottom  : 0%;
     border         : 9px double white;
     /* border-style: ridge; */
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+}
+
+.motivation:hover {
+    width          : 60%;
+    margin         : 20%;
+    margin-top     : 0%;
+    margin-bottom  : 0%;
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
 }
 
 .background-dark {
